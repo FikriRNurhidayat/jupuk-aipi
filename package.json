@@ -1,9 +1,10 @@
 {
-  "name": "getipaddress",
+  "name": "jupuk-aipi",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Fikri Rahmat Nurhidayat <fikrirnurhidayat@gmail.com>",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "prestart": "npm run build",
     "start": "bin/server",
