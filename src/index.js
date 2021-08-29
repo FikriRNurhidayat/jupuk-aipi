@@ -1,5 +1,12 @@
-import React, { ReactDOM } from 'react';
+import React from "react";
+import ReactDOM from "react-dom";
+import HomePage from "./views/pages/HomePage";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./style.css";
 
-const template = React.createElement('h1', null, 'Hello World');
-
-ReactDOM.render(template, document.getElementById('root'));
+ReactDOM.render(
+  <React.StrictMode>
+    <HomePage />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
